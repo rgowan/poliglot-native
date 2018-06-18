@@ -1,13 +1,29 @@
-import React from 'react';
-
 import LandingScreen from './src/screens/Landing/Landing';
 import LoginScreen from './src/screens/Auth/Login';
 import RegisterScreen from './src/screens/Auth/Register';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <LandingScreen />
-    );
+import { Navigation } from 'react-native-navigation';
+
+Navigation.registerComponent(
+  'poliglot.LandingScreen',
+  () => LandingScreen
+);
+
+Navigation.registerComponent(
+  'poliglot.LoginScreen',
+  () => LoginScreen
+);
+
+Navigation.registerComponent(
+  'poliglot.RegisterScreen',
+  () => RegisterScreen
+);
+
+export default () => Navigation.startSingleScreenApp({
+  screen: {
+    screen: 'poliglot.LandingScreen',
+    navigatorStyle: {
+      navBarHidden: true
+    }
   }
-}
+});
