@@ -12,7 +12,10 @@ class Login extends Component {
 
   handleGoBack = () => {
     this.props.navigator.resetTo({
-      screen: 'poliglot.LandingScreen'
+      screen: 'poliglot.LandingScreen',
+      navigatorStyle: {
+        navBarHidden: true
+      }
     });
   }
 
@@ -63,7 +66,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    paddingTop: 60
   },
   heading: {
     fontSize: 50,

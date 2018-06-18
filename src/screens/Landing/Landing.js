@@ -19,10 +19,10 @@ class Landing extends Component {
       screen: newScreen,
       animated: true,
       animationType: 'slide-horizontal',
-      backButtonTitle: ''
-      // navigatorStyle: {
-      //   navBarHidden: true
-      // }
+      backButtonTitle: '',
+      navigatorStyle: {
+        navBarHidden: true
+      }
     });
   }
 
@@ -60,8 +60,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    paddingTop: 60,
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    paddingTop: 60
   },
   textContainer: {
     alignItems: 'center'
