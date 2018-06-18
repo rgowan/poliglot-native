@@ -4,16 +4,8 @@
             "outputFile": "/Users/ranegowan/Development/github-repos/poliglot-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58a24ac41f0a2379271438e97fb08c44/res/values-hdpi/values-hdpi.xml",
+                    "source": "/Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9b8b09dc3939eb68446eadf60dd97fe3/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "286",
-                        "endLines": "8",
-                        "endColumns": "13",
-                        "endOffsets": "558"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

@@ -4,9 +4,14 @@ ADDED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/41a33ccaf9395efb4268ad551daed225/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58a24ac41f0a2379271438e97fb08c44/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:23.0.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/f0559b637e2368e6b1d1ba2ba381a3ee/AndroidManifest.xml:17:1-24:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/e5441227fcd62e6d3b3c560b93825672/AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/89eccdfe38815198a817ccd2a8c31c6f/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/11d6b373ed4b4cb94cf1f7a8323b6c1a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9b8b09dc3939eb68446eadf60dd97fe3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/9a906d26e611cd9f33d204f7e33a45e8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/e560adb433a3c6c1a6662489028bae8b/AndroidManifest.xml:17:1-31:12
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/ef756045a5302c4c6179149038379da8/AndroidManifest.xml:10:1-18:12
 MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/74e030a87c25bbe2e93065ca538b350c/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/fb71ec187f6574e34d5f3d10d1557457/AndroidManifest.xml:2:1-9:12
@@ -16,6 +21,15 @@ MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/ranegowan/.gradle/caches/t
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/f023dfaabeaa3757366f9e2191509402/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/e9b647806ed0d9c256c46319242b3624/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/cd9f943c9ec9cd2edd5da9826ea4e224/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/be37cd7cf3b0fb970f8c224636239b83/AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/c7998045df7affd77c4c58b6742de0e8/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2055de35532f1d9c5ff93c83556431ed/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e81d75b919b70f9b857169a8a1e8bafc/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/144ce20104d00f8b0118d06266b8c20c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/770f9c36f29573bd13a17f953258ac61/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b829948bcbddf457fc0a049b757cf944/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1ce014edf2b7732ad12c87c25bed088e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3fc8ff05e758a8e86a960d8bdd5bb6e0/AndroidManifest.xml:17:1-31:12
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:1:1-26:12
@@ -45,16 +59,42 @@ MERGED from [com.facebook.react:react-native:0.55.4] /Users/ranegowan/.gradle/ca
 		ADDED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:5:22-75
 application
 ADDED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/41a33ccaf9395efb4268ad551daed225/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/41a33ccaf9395efb4268ad551daed225/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58a24ac41f0a2379271438e97fb08c44/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58a24ac41f0a2379271438e97fb08c44/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/f0559b637e2368e6b1d1ba2ba381a3ee/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/f0559b637e2368e6b1d1ba2ba381a3ee/AndroidManifest.xml:22:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/e5441227fcd62e6d3b3c560b93825672/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/e5441227fcd62e6d3b3c560b93825672/AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/89eccdfe38815198a817ccd2a8c31c6f/AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/89eccdfe38815198a817ccd2a8c31c6f/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/11d6b373ed4b4cb94cf1f7a8323b6c1a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/11d6b373ed4b4cb94cf1f7a8323b6c1a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9b8b09dc3939eb68446eadf60dd97fe3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9b8b09dc3939eb68446eadf60dd97fe3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/9a906d26e611cd9f33d204f7e33a45e8/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/9a906d26e611cd9f33d204f7e33a45e8/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/e560adb433a3c6c1a6662489028bae8b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/e560adb433a3c6c1a6662489028bae8b/AndroidManifest.xml:29:5-20
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/23dc84837d6aecc4ea11266816798c0e/AndroidManifest.xml:3:3-17
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/23dc84837d6aecc4ea11266816798c0e/AndroidManifest.xml:3:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/9f8cf121ff2565c5e4ca6756fd6f3b74/AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/9f8cf121ff2565c5e4ca6756fd6f3b74/AndroidManifest.xml:2:3-17
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/c7998045df7affd77c4c58b6742de0e8/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/c7998045df7affd77c4c58b6742de0e8/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2055de35532f1d9c5ff93c83556431ed/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2055de35532f1d9c5ff93c83556431ed/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e81d75b919b70f9b857169a8a1e8bafc/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e81d75b919b70f9b857169a8a1e8bafc/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/144ce20104d00f8b0118d06266b8c20c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/144ce20104d00f8b0118d06266b8c20c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/770f9c36f29573bd13a17f953258ac61/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/770f9c36f29573bd13a17f953258ac61/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b829948bcbddf457fc0a049b757cf944/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b829948bcbddf457fc0a049b757cf944/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1ce014edf2b7732ad12c87c25bed088e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1ce014edf2b7732ad12c87c25bed088e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3fc8ff05e758a8e86a960d8bdd5bb6e0/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3fc8ff05e758a8e86a960d8bdd5bb6e0/AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:9:7-39
 	android:icon
@@ -87,18 +127,32 @@ ADDED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app
 		ADDED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:23:7-84
+MERGED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-37
 	android:name
 		ADDED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/41a33ccaf9395efb4268ad551daed225/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/41a33ccaf9395efb4268ad551daed225/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58a24ac41f0a2379271438e97fb08c44/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/58a24ac41f0a2379271438e97fb08c44/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/f0559b637e2368e6b1d1ba2ba381a3ee/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/f0559b637e2368e6b1d1ba2ba381a3ee/AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/e5441227fcd62e6d3b3c560b93825672/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/e5441227fcd62e6d3b3c560b93825672/AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/89eccdfe38815198a817ccd2a8c31c6f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/89eccdfe38815198a817ccd2a8c31c6f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/11d6b373ed4b4cb94cf1f7a8323b6c1a/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/11d6b373ed4b4cb94cf1f7a8323b6c1a/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9b8b09dc3939eb68446eadf60dd97fe3/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9b8b09dc3939eb68446eadf60dd97fe3/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/9a906d26e611cd9f33d204f7e33a45e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/9a906d26e611cd9f33d204f7e33a45e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/e560adb433a3c6c1a6662489028bae8b/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/e560adb433a3c6c1a6662489028bae8b/AndroidManifest.xml:21:5-23:54
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/ef756045a5302c4c6179149038379da8/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/ef756045a5302c4c6179149038379da8/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/74e030a87c25bbe2e93065ca538b350c/AndroidManifest.xml:5:5-7:41
@@ -115,8 +169,28 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/ranegowan/.gra
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/e9b647806ed0d9c256c46319242b3624/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/cd9f943c9ec9cd2edd5da9826ea4e224/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/cd9f943c9ec9cd2edd5da9826ea4e224/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/be37cd7cf3b0fb970f8c224636239b83/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/be37cd7cf3b0fb970f8c224636239b83/AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/c7998045df7affd77c4c58b6742de0e8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/c7998045df7affd77c4c58b6742de0e8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2055de35532f1d9c5ff93c83556431ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2055de35532f1d9c5ff93c83556431ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e81d75b919b70f9b857169a8a1e8bafc/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e81d75b919b70f9b857169a8a1e8bafc/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/144ce20104d00f8b0118d06266b8c20c/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/144ce20104d00f8b0118d06266b8c20c/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/770f9c36f29573bd13a17f953258ac61/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/770f9c36f29573bd13a17f953258ac61/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b829948bcbddf457fc0a049b757cf944/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b829948bcbddf457fc0a049b757cf944/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1ce014edf2b7732ad12c87c25bed088e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1ce014edf2b7732ad12c87c25bed088e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3fc8ff05e758a8e86a960d8bdd5bb6e0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3fc8ff05e758a8e86a960d8bdd5bb6e0/AndroidManifest.xml:21:5-23:58
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/11d6b373ed4b4cb94cf1f7a8323b6c1a/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml
@@ -125,6 +199,40 @@ INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/
 		INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml
+activity#com.reactnativenavigation.controllers.NavigationActivity
+ADDED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:86
+	android:configChanges
+		ADDED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-83
+	android:name
+		ADDED from [:react-native-navigation] /Users/ranegowan/Development/github-repos/poliglot-native/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/11d6b373ed4b4cb94cf1f7a8323b6c1a/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9b8b09dc3939eb68446eadf60dd97fe3/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9b8b09dc3939eb68446eadf60dd97fe3/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/9a906d26e611cd9f33d204f7e33a45e8/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/9a906d26e611cd9f33d204f7e33a45e8/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/e560adb433a3c6c1a6662489028bae8b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/e560adb433a3c6c1a6662489028bae8b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/be37cd7cf3b0fb970f8c224636239b83/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/be37cd7cf3b0fb970f8c224636239b83/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2055de35532f1d9c5ff93c83556431ed/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2055de35532f1d9c5ff93c83556431ed/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e81d75b919b70f9b857169a8a1e8bafc/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/e81d75b919b70f9b857169a8a1e8bafc/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/144ce20104d00f8b0118d06266b8c20c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/144ce20104d00f8b0118d06266b8c20c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/770f9c36f29573bd13a17f953258ac61/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/770f9c36f29573bd13a17f953258ac61/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b829948bcbddf457fc0a049b757cf944/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b829948bcbddf457fc0a049b757cf944/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1ce014edf2b7732ad12c87c25bed088e/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/1ce014edf2b7732ad12c87c25bed088e/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3fc8ff05e758a8e86a960d8bdd5bb6e0/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3fc8ff05e758a8e86a960d8bdd5bb6e0/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/11d6b373ed4b4cb94cf1f7a8323b6c1a/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/ranegowan/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/11d6b373ed4b4cb94cf1f7a8323b6c1a/AndroidManifest.xml:26:9-47
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from /Users/ranegowan/Development/github-repos/poliglot-native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
