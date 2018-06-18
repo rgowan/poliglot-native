@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import {
   StyleSheet,
@@ -10,42 +10,65 @@ import {
 
 import logo from '../../assets/images/logo.png';
 
-const Landing = () => (
-  <View style={styles.container}>
-    <View style={styles.textContainer}>
-      <Image 
-        source={logo}
-        style={styles.logo}
-      />
-      <Text style={styles.heading}>Poliglot</Text>
-      <Text style={styles.subHeading}>Break the language barrier.</Text>
-    </View>
+class Landing extends Component {
 
-    <View style={styles.buttonContainer}>
-      <TouchableOpacity>
-        <View style={[styles.button, { backgroundColor: '#97cbfc' }]}>
-          <Text style={styles.buttonText}>Register</Text>
+  handleScreenChange = screen => {
+    const newScreen = screen === 'Register' ? 'poliglot.RegisterScreen' : 'poliglot.LoginScreen';
+
+    this.props.navigator.push({
+      screen: newScreen,
+      animated: true,
+      animationType: 'slide-horizontal',
+      backButtonTitle: ''
+      // navigatorStyle: {
+      //   navBarHidden: true
+      // }
+    });
+  }
+
+  render () {
+    return (
+      <View style={styles.container}>
+        <View style={styles.textContainer}>
+          <Image 
+            source={logo}
+            style={styles.logo}
+          />
+          <Text style={styles.heading}>Poliglot</Text>
+          <Text style={styles.subHeading}>Break the language barrier.</Text>
         </View>
-      </TouchableOpacity>
-      <TouchableOpacity>
-        <View style={[styles.button, { backgroundColor: '#deeffd' }]}>
-          <Text style={styles.buttonText}>Login</Text>
+  
+        <View style={styles.buttonContainer}>
+          <TouchableOpacity onPress={() => this.handleScreenChange('Register')}>
+            <View style={[styles.button, { backgroundColor: '#97cbfc' }]}>
+              <Text style={styles.buttonText}>Register</Text>
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity onPress={() => this.handleScreenChange('Login')}>
+            <View style={[styles.button, { backgroundColor: '#deeffd' }]}>
+              <Text style={styles.buttonText}>Login</Text>
+            </View>
+          </TouchableOpacity>
         </View>
-      </TouchableOpacity>
-    </View>
-  </View>
-);
+      </View>
+    );
+  }
+}
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 100,
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'space-between'
+    paddingTop: 60,
+    backgroundColor: '#fff'
+  },
+  textContainer: {
+    alignItems: 'center'
   },
   logo: {
-    width: 200,
-    height: 200
+    width: 160,
+    height: 160
   },
   heading: {
     fontSize: 60,
@@ -60,9 +83,6 @@ const styles = StyleSheet.create({
     color: '#3d5265',
     textAlign: 'center'
   },
-  textContainer: {
-    alignItems: 'center'
-  },
   buttonContainer: {
     position: 'absolute',
     bottom: 25,
@@ -75,7 +95,7 @@ const styles = StyleSheet.create({
     margin: 5,
     borderRadius: 3,
     borderWidth: 2,
-    borderColor: 'rgba(70,136,199,.4)'
+    borderColor: 'rgba(70, 136, 199, 0.6)'
   },
   buttonText: {
     fontSize: 20,

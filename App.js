@@ -21,9 +21,9 @@ Navigation.registerComponent(
 
 export default () => Navigation.startSingleScreenApp({
   screen: {
-    screen: 'poliglot.LandingScreen',
+    screen: 'poliglot.LoginScreen',
     navigatorStyle: {
-      navBarHidden: true
+      // navBarHidden: true
     }
   }
 });

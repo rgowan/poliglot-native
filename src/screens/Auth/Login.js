@@ -1,23 +1,121 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import {
   StyleSheet,
   View,
-  Text
+  Text,
+  TextInput,
+  TouchableOpacity
 } from 'react-native';
 
-const Login = () => (
-  <View style={styles.container}>
-    <Text>Poliglot</Text>
-    <Text>Login</Text>
-  </View>
-);
+class Login extends Component {
+
+  handleGoBack = () => {
+    this.props.navigator.resetTo({
+      screen: 'poliglot.LandingScreen'
+    });
+  }
+
+  render () {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.heading}>Login</Text>
+  
+        <View style={styles.inputContainer}>
+          <TextInput
+            style={styles.input}
+            underlineColorAndroid='transparent'
+            placeholder='Email'
+            autoCapitalize='none'
+            autoCorrect={false}
+            keyboardType='email-address'
+          />
+  
+          <TextInput
+            style={styles.input}
+            underlineColorAndroid='transparent'
+            placeholder='Password'
+            autoCapitalize='none'
+            autoCorrect={false}
+            secureTextEntry
+          />
+        </View>
+  
+        <View style={styles.buttonContainer}>
+          <TouchableOpacity>
+            <View style={styles.button}>
+              <Text style={styles.buttonText}>Login</Text>
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity onPress={this.handleGoBack}>
+            <View style={styles.transparentButton}>
+              <Text style={styles.buttonText}>Back</Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </View>
+    );
+  }
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center'
+    backgroundColor: '#fff'
+  },
+  heading: {
+    fontSize: 50,
+    fontWeight: '700',
+    fontFamily: 'Avenir Next',
+    color: '#3d5265',
+    textAlign: 'center'
+  },
+  inputContainer: {
+    width: '80%'
+  },
+  input: {
+    fontFamily: 'Avenir Next',
+    backgroundColor: 'rgba(222, 239, 253, .1)',
+    width: '100%',
+    marginTop: 8,
+    fontSize: 18,
+    marginBottom: 8,
+    padding: 10,
+    margin: 5,
+    borderRadius: 3,
+    borderWidth: 2,
+    borderColor: 'rgba(222, 239, 253, .8)'
+  },
+  buttonContainer: {
+    width: '80%',
+    position: 'absolute',
+    bottom: 25
+  },
+  button: {
+    width: '100%',
+    backgroundColor: '#97cbfc',
+    alignItems: 'center',
+    padding: 10,
+    margin: 5,
+    borderRadius: 3,
+    borderWidth: 2,
+    borderColor: 'rgba(70, 136, 199, 0.6)'
+  },
+  transparentButton: {
+    width: '100%',
+    backgroundColor: 'transparent',
+    alignItems: 'center',
+    margin: 5,
+    padding: 10,
+    borderRadius: 3
+  },
+  buttonText: {
+    fontSize: 18,
+    color: '#3d5265',
+    fontWeight: '600',
+    fontFamily: 'Avenir Next'
   }
 });
 
