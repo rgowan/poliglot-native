@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     backgroundColor: '#fff',
-    paddingTop: 60
+    paddingTop: 70
   },
   textContainer: {
     alignItems: 'center'
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     position: 'absolute',
-    bottom: 25,
+    bottom: 50,
     width: '80%'
   },
   button: {

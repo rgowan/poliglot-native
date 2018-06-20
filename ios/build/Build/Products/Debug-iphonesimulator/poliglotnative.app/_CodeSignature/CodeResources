@@ -51,7 +51,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GKm0K1GghoPIjoHjUPgTR/eUBEs=
+		8hrww5prdm52X5gLFLUxORAgd3E=
+		</data>
+		<key>LaunchImage-700-568h@2x.png</key>
+		<data>
+		jUzAVDZErJq8r4xRQMYF5Kc4BgE=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -75,7 +79,7 @@
 		</data>
 		<key>PlugIns/poliglotnativeTests.xctest/poliglotnativeTests</key>
 		<data>
-		8vLQIKcEIufLev4MIUawy8RkIIM=
+		wynOe9jh8CTYfEM4oTotShzqxBI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -192,6 +196,17 @@
 			2hnwNPgdaewT28DbTqe0Gpaccdc2akBF8IjnGtISc58=
 			</data>
 		</dict>
+		<key>LaunchImage-700-568h@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jUzAVDZErJq8r4xRQMYF5Kc4BgE=
+			</data>
+			<key>hash2</key>
+			<data>
+			zk4M8Nt4RUdrZyscD2Fls3DuhrSZpwnGFwXIWTdHmrw=
+			</data>
+		</dict>
 		<key>PlugIns/poliglotnativeTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -240,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8vLQIKcEIufLev4MIUawy8RkIIM=
+			wynOe9jh8CTYfEM4oTotShzqxBI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ir8icJbdkYwvQ4bVXXpBD+/RSJ14YFvP5DLxbsD+FVw=
+			+3vrydNDVnjEqP2it0QxUnL9MGXjuVLZAeEg0f4StH4=
 			</data>
 		</dict>
 	</dict>

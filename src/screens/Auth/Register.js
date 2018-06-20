@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     backgroundColor: '#fff',
-    paddingTop: 60
+    paddingTop: 70
   },
   heading: {
     fontSize: 50,

@@ -19,6 +19,28 @@ class Login extends Component {
     });
   }
 
+  handleSubmit = () => {
+    this.props.navigator.resetTo({
+      screen: 'poliglot.ChatListScreen',
+      title: 'Chats',
+      navigatorStyle: {
+        navBarTextFontSize: 24
+      },
+      navigatorButtons: {
+        leftButtons: [
+          {
+            title: 'New'
+          }
+        ],
+        rightButtons: [
+          {
+            title: 'Profile'
+          }
+        ]
+      }
+    });
+  }
+
   render () {
     return (
       <View style={styles.container}>
@@ -45,7 +67,7 @@ class Login extends Component {
         </View>
   
         <View style={styles.buttonContainer}>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={this.handleSubmit}>
             <View style={styles.button}>
               <Text style={styles.buttonText}>Login</Text>
             </View>
@@ -67,7 +89,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     backgroundColor: '#fff',
-    paddingTop: 60
+    paddingTop: 70
   },
   heading: {
     fontSize: 50,

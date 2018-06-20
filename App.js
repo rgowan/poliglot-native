@@ -1,8 +1,10 @@
+import { Navigation } from 'react-native-navigation';
+
 import LandingScreen from './src/screens/Landing/Landing';
 import LoginScreen from './src/screens/Auth/Login';
 import RegisterScreen from './src/screens/Auth/Register';
 
-import { Navigation } from 'react-native-navigation';
+import ChatListScreen from './src/screens/ChatList/ChatList';
 
 Navigation.registerComponent(
   'poliglot.LandingScreen',
@@ -17,6 +19,11 @@ Navigation.registerComponent(
 Navigation.registerComponent(
   'poliglot.RegisterScreen',
   () => RegisterScreen
+);
+
+Navigation.registerComponent(
+  'poliglot.ChatListScreen',
+  () => ChatListScreen
 );
 
 export default () => Navigation.startSingleScreenApp({
