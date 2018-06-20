@@ -1,26 +1,16 @@
 import React, { Component } from 'react';
 
-import image from '../../assets/images/default-user.png';
-
 import {
   StyleSheet,
   View,
-  Text,
-  Image
+  Text
 } from 'react-native';
 
 class Profile extends Component {
   render () {
     return (
       <View style={styles.container}>
-        <Image
-          style={styles.profilePicture}
-          source={image}
-        />
-
-        <View>
-          <Text>Rane Gowan</Text>
-        </View>
+        <Text style={styles.heading}>Profile</Text>
       </View>
     );
   }
@@ -30,14 +20,15 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
     paddingTop: 10,
     paddingLeft: 10,
     paddingRight: 10
   },
-  profilePicture: {
-    width: 250,
-    height: 250
+  heading: {
+    fontSize: 50,
+    fontWeight: '700',
+    fontFamily: 'Avenir Next',
+    color: '#3d5265'
   }
 });
 

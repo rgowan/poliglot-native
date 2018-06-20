@@ -7,6 +7,7 @@ import RegisterScreen from './src/screens/Auth/Register';
 
 import ChatListScreen from './src/screens/ChatList/ChatList';
 import ProfileScreen from './src/screens/Profile/Profile';
+import SideDrawerScreen from './src/screens/SideDrawer/SideDrawer';
 
 Navigation.registerComponent(
   'poliglot.LandingScreen',
@@ -33,12 +34,22 @@ Navigation.registerComponent(
   () => ProfileScreen
 );
 
+Navigation.registerComponent(
+  'poliglot.SideDrawerScreen',
+  () => SideDrawerScreen
+);
+
 export const startAuthScreen = () => {
   Navigation.startSingleScreenApp({
     screen: {
       screen: 'poliglot.LandingScreen',
       navigatorStyle: {
         navBarNoBorder: true
+      }
+    },
+    drawer: {
+      left: {
+        screen: 'poliglot.SideDrawerScreen'
       }
     }
   });
@@ -62,14 +73,14 @@ export const startChatScreen = props => {
           leftButtons: [
             {
               icon: icons[0],
-              title: 'Add',
-              id: 'sideDrawerToggle'
+              title: 'New Chat',
+              id: 'toggleSideDrawer'
             }
           ],
           rightButtons: [
             {
               icon: icons[1],
-              title: 'Add',
+              title: 'Profile',
               id: 'viewProfile'
             }
           ]
