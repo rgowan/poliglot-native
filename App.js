@@ -11,7 +11,6 @@ export const startAuthScreen = () => {
       screen: 'poliglot.LandingScreen',
       navigatorStyle: {
         navBarHidden: true
-        // navBarNoBorder: true
       }
     },
     drawer: {
@@ -36,7 +35,8 @@ export const startChatScreen = props => {
         screen: 'poliglot.ChatListScreen',
         navigatorStyle: {
           navBarTextFontSize: 22,
-          navBarButtonColor: '#97cbfc'
+          navBarButtonColor: '#97cbfc',
+          navBarNoBorder: true
         },
         navigatorButtons: {
           leftButtons: [
