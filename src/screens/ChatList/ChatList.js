@@ -11,6 +11,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 class ChatList extends Component {
   constructor(props) {
     super(props);
+    
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
   }
 
@@ -22,7 +23,12 @@ class ChatList extends Component {
           this.handleProfileScreenChange();
           break;
         case 'toggleSideDrawer':
-          this.props.navigator.toggleDrawer({ side: 'left' });
+          this.props.navigator.toggleDrawer({ 
+            side: 'left',
+            passProps: {
+              currentScreen: 'calendar'
+            }
+          });
           break;
       }
 
@@ -42,7 +48,6 @@ class ChatList extends Component {
           backButtonTitle: '',
           navigatorStyle: {
             navBarTextFontSize: 22,
-            navBarNoBorder: true,
             navBarButtonColor: '#97cbfc'
           },
           navigatorButtons: {

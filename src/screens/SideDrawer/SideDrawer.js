@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 import {
   StyleSheet,
   Dimensions,
+  TouchableOpacity,
   View,
+  ScrollView,
   TextInput,
   Text,
   Image
@@ -12,6 +14,17 @@ import {
 import image from '../../assets/images/default-user.png';
 
 class SideDrawer extends Component {
+  constructor(props) {
+    super(props);
+
+    console.log('fijbsfiusduiyd', this.props);
+  }
+
+  handleSuggestionPress = () => {
+    console.log(this.props.currentScreen);
+  }
+
+
   render () {
     return (
       <View style={[styles.container, { width: Dimensions.get('window').width * 0.9 }]}>
@@ -26,14 +39,18 @@ class SideDrawer extends Component {
           />
         </View>
 
-        <View style={styles.suggestionContainer}>
-          <Image 
-            style={styles.suggestionImage}
-            source={image}
-          />
+        <ScrollView>
+          <TouchableOpacity onPress={this.handleSuggestionPress}>
+            <View style={styles.suggestionItem}>
+              <Image 
+                style={styles.suggestionImage}
+                source={image}
+              />
 
-          <Text style={styles.suggestionText}>Rane Gowan</Text>
-        </View>
+              <Text style={styles.suggestionText}>Rane Gowan</Text>
+            </View>
+          </TouchableOpacity>
+        </ScrollView>
       </View>
     );
   }
@@ -43,7 +60,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 50,
-    paddingLeft: 20,
+    paddingLeft: 10,
     backgroundColor: '#3d5265'
   },
   inputContainer: {
@@ -69,12 +86,11 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontFamily: 'Avenir Next'
   },
-  suggestionContainer: {
+  suggestionItem: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 10,
-    marginBottom: 10,
     padding: 10,
+    marginTop: 10,
     width: '75%'
   },
   suggestionImage: {
