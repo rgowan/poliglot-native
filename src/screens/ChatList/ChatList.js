@@ -16,15 +16,16 @@ class ChatList extends Component {
 
   onNavigatorEvent = event => {
     if (event.type === 'NavBarButtonPress') {
-      if (event.id === 'viewProfile') {
-        this.handleProfileScreenChange();
+
+      switch(event.id) {
+        case 'viewProfile':
+          this.handleProfileScreenChange();
+          break;
+        case 'toggleSideDrawer':
+          this.props.navigator.toggleDrawer({ side: 'left' });
+          break;
       }
-      
-      if (event.id === 'toggleSideDrawer') {
-        this.props.navigator.toggleDrawer({
-          side: 'left'
-        });
-      }
+
     }
   }
 

@@ -11,6 +11,26 @@ import {
 import logo from '../../assets/images/logo.png';
 
 class Landing extends Component {
+  constructor(props) {
+    super(props);
+    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
+  }
+
+  onNavigatorEvent = event => {
+    if (event.id === 'willAppear') {
+      this.props.navigator.setDrawerEnabled({
+        side: 'left',
+        enabled: false
+      });
+    }
+  }
+
+  componentWillUnmount() {
+    this.props.navigator.setDrawerEnabled({
+      side: 'left',
+      enabled: true
+    });
+  }
 
   handleScreenChange = screen => {
     const newScreen = screen === 'Register' ? 'poliglot.RegisterScreen' : 'poliglot.LoginScreen';
@@ -60,8 +80,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    backgroundColor: '#fff',
-    paddingTop: 70
+    justifyContent: 'center',
+    backgroundColor: '#fff'
   },
   textContainer: {
     alignItems: 'center'
@@ -84,9 +104,8 @@ const styles = StyleSheet.create({
     textAlign: 'center'
   },
   buttonContainer: {
-    position: 'absolute',
-    bottom: 50,
-    width: '80%'
+    width: '80%',
+    paddingTop: 50
   },
   button: {
     backgroundColor: '#97cbfc',

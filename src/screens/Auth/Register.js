@@ -81,8 +81,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    backgroundColor: '#fff',
-    paddingTop: 70
+    justifyContent: 'center',
+    backgroundColor: '#fff'
   },
   heading: {
     fontSize: 50,
@@ -109,8 +109,7 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     width: '80%',
-    position: 'absolute',
-    bottom: 25
+    paddingTop: 50
   },
   button: {
     width: '100%',
