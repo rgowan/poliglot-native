@@ -16,7 +16,10 @@ export const startAuthScreen = () => {
     },
     drawer: {
       left: {
-        screen: 'poliglot.SideDrawerScreen'
+        screen: 'poliglot.SideDrawerScreen',
+        passProps: {
+          name: 'Rane'
+        }
       }
     }
   });

@@ -16,23 +16,32 @@ class ChatList extends Component {
   }
 
   onNavigatorEvent = event => {
-    if (event.type === 'NavBarButtonPress') {
+    if (event.type === 'DeepLink') {
+      if(event.link === 'newChat') {
+        this.props.navigator.toggleDrawer({ side: 'left' });
+        this.handleChatScreenChange();
+      }
+    }
 
+
+    if (event.type === 'NavBarButtonPress') {
       switch(event.id) {
         case 'viewProfile':
           this.handleProfileScreenChange();
           break;
         case 'toggleSideDrawer':
-          this.props.navigator.toggleDrawer({ 
-            side: 'left',
-            passProps: {
-              currentScreen: 'calendar'
-            }
-          });
+          this.props.navigator.toggleDrawer({ side: 'left' });
           break;
       }
-
     }
+  }
+
+  handleChatScreenChange = () => {
+    this.props.navigator.push({
+      screen: 'poliglot.ChatScreen',
+      title: 'Chat',
+      backButtonTitle: ''
+    });
   }
 
   handleProfileScreenChange = () => {

@@ -14,16 +14,9 @@ import {
 import image from '../../assets/images/default-user.png';
 
 class SideDrawer extends Component {
-  constructor(props) {
-    super(props);
-
-    console.log('fijbsfiusduiyd', this.props);
-  }
-
   handleSuggestionPress = () => {
-    console.log(this.props.currentScreen);
+    this.props.navigator.handleDeepLink({ link: 'newChat' });
   }
-
 
   render () {
     return (

@@ -7,6 +7,27 @@ import {
 } from 'react-native';
 
 class Chat extends Component {
+  constructor(props) {
+    super(props);
+    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
+  }
+
+  onNavigatorEvent = event => {
+    if (event.id === 'willAppear') {
+      this.props.navigator.setDrawerEnabled({
+        side: 'left',
+        enabled: false
+      });
+    }
+  }
+
+  componentWillUnmount() {
+    this.props.navigator.setDrawerEnabled({
+      side: 'left',
+      enabled: true
+    });
+  }
+  
   render () {
     return (
       <View>
