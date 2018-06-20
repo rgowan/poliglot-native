@@ -8,6 +8,8 @@ import {
   TouchableOpacity
 } from 'react-native';
 
+import { startChatScreen } from '../../../App';
+
 class Login extends Component {
 
   handleGoBack = () => {
@@ -20,25 +22,7 @@ class Login extends Component {
   }
 
   handleSubmit = () => {
-    this.props.navigator.resetTo({
-      screen: 'poliglot.ChatListScreen',
-      title: 'Chats',
-      navigatorStyle: {
-        navBarTextFontSize: 24
-      },
-      navigatorButtons: {
-        leftButtons: [
-          {
-            title: 'New'
-          }
-        ],
-        rightButtons: [
-          {
-            title: 'Profile'
-          }
-        ]
-      }
-    });
+    startChatScreen(this.props);
   }
 
   render () {
