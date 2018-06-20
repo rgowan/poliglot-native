@@ -4,20 +4,35 @@ import {
   StyleSheet,
   Dimensions,
   View,
-  TextInput
+  TextInput,
+  Text,
+  Image
 } from 'react-native';
+
+import image from '../../assets/images/default-user.png';
 
 class SideDrawer extends Component {
   render () {
     return (
       <View style={[styles.container, { width: Dimensions.get('window').width * 0.9 }]}>
         <View style={styles.inputContainer}>
+          <Text style={styles.inputLabel}>Who do you want to chat to?</Text>
           <TextInput
             style={styles.input}
             placeholder='Search...'
+            placeholderTextColor='#ccc'
             underlineColorAndroid='transparent'
             autoCorrect={false}
           />
+        </View>
+
+        <View style={styles.suggestionContainer}>
+          <Image 
+            style={styles.suggestionImage}
+            source={image}
+          />
+
+          <Text style={styles.suggestionText}>Rane Gowan</Text>
         </View>
       </View>
     );
@@ -28,22 +43,53 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 50,
+    paddingLeft: 20,
     backgroundColor: '#3d5265'
   },
   inputContainer: {
-    width: '80%',
-    alignItems: 'center'
+    width: '80%'
   },
   input: {
     fontFamily: 'Avenir Next',
+    fontWeight: '500',
     backgroundColor: 'rgba(222, 239, 253, .1)',
     width: '90%',
-    color: '#fff',
-    fontSize: 18,
+    color: '#fafafa',
+    fontSize: 20,
     padding: 10,
     borderRadius: 3,
     borderWidth: 2,
-    borderColor: 'rgba(222, 239, 253, .2)'
+    borderColor: 'rgba(222, 239, 253, .05)'
+  },
+  inputLabel: {
+    textAlign: 'left',
+    paddingTop: 10,
+    paddingBottom: 10,
+    fontSize: 16,
+    color: '#fff',
+    fontFamily: 'Avenir Next'
+  },
+  suggestionContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 10,
+    marginBottom: 10,
+    padding: 10,
+    width: '75%'
+  },
+  suggestionImage: {
+    width: 50,
+    height: 50,
+    borderRadius: 3,
+    borderWidth: 3,
+    borderColor: 'rgba(155, 202, 114, 0.8)'
+  },
+  suggestionText: {
+    fontFamily: 'Avenir Next',
+    fontWeight: '500',
+    fontSize: 20,
+    marginLeft: 10,
+    color: '#fff'
   }
 });
 

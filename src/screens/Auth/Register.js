@@ -8,6 +8,8 @@ import {
   TouchableOpacity
 } from 'react-native';
 
+import { startChatScreen } from '../../../App';
+
 class Register extends Component {
 
   handleGoBack = () => {
@@ -17,6 +19,10 @@ class Register extends Component {
         navBarHidden: true
       }
     });
+  }
+
+  handleSubmit = () => {
+    startChatScreen(this.props);
   }
 
   render () {
@@ -60,7 +66,7 @@ class Register extends Component {
         </View>
   
         <View style={styles.buttonContainer}>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={this.handleSubmit}>
             <View style={styles.button}>
               <Text style={styles.buttonText}>Register</Text>
             </View>

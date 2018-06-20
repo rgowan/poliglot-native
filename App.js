@@ -45,6 +45,7 @@ export const startAuthScreen = () => {
       screen: 'poliglot.LandingScreen',
       navigatorStyle: {
         navBarHidden: true
+        // navBarNoBorder: true
       }
     },
     drawer: {
