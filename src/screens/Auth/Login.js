@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 import {
   StyleSheet,
   View,
-  Text,
-  TextInput
+  Text
 } from 'react-native';
 
 import { startChatScreen } from '../../../App';
-import PrimaryButton from '../../components/UI/PrimaryButton/PrimaryButton';
+import Button from '../../components/UI/Button/Button';
+import Input from '../../components/UI/Input/Input';
 
 class Login extends Component {
 
@@ -31,7 +31,7 @@ class Login extends Component {
         <Text style={styles.heading}>Login</Text>
   
         <View style={styles.inputContainer}>
-          <TextInput
+          <Input
             style={styles.input}
             underlineColorAndroid='transparent'
             placeholder='Email'
@@ -40,7 +40,7 @@ class Login extends Component {
             keyboardType='email-address'
           />
   
-          <TextInput
+          <Input
             style={styles.input}
             underlineColorAndroid='transparent'
             placeholder='Password'
@@ -51,19 +51,19 @@ class Login extends Component {
         </View>
   
         <View style={styles.buttonContainer}>
-          <PrimaryButton
+          <Button
             onPress={this.handleSubmit}
             backgroundColor='#deeffd'
           >
             Login
-          </PrimaryButton>
+          </Button>
 
-          <PrimaryButton
+          <Button
             onPress={this.handleGoBack}
             backgroundColor='transparent'
           >
           Back
-          </PrimaryButton>
+          </Button>
         </View>
       </View>
     );
@@ -86,19 +86,6 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     width: '80%'
-  },
-  input: {
-    fontFamily: 'Avenir Next',
-    backgroundColor: 'rgba(222, 239, 253, .1)',
-    width: '100%',
-    marginTop: 8,
-    fontSize: 18,
-    marginBottom: 8,
-    padding: 10,
-    margin: 5,
-    borderRadius: 3,
-    borderWidth: 2,
-    borderColor: 'rgba(222, 239, 253, .8)'
   },
   buttonContainer: {
     width: '80%',

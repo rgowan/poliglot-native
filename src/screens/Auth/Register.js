@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 import {
   StyleSheet,
   View,
-  Text,
-  TextInput
+  Text
 } from 'react-native';
 
 import { startChatScreen } from '../../../App';
-import PrimaryButton from '../../components/UI/PrimaryButton/PrimaryButton';
+import Button from '../../components/UI/Button/Button';
+import Input from '../../components/UI/Input/Input';
 
 class Register extends Component {
 
@@ -31,7 +31,7 @@ class Register extends Component {
         <Text style={styles.heading}>Register</Text>
   
         <View style={styles.inputContainer}>
-          <TextInput
+          <Input
             style={styles.input}
             underlineColorAndroid='transparent'
             placeholder='Email'
@@ -40,13 +40,13 @@ class Register extends Component {
             keyboardType='email-address'
           />
 
-          <TextInput
+          <Input
             style={styles.input}
             underlineColorAndroid='transparent'
             placeholder='Select Language'
           />
   
-          <TextInput
+          <Input
             style={styles.input}
             underlineColorAndroid='transparent'
             placeholder='Password'
@@ -55,7 +55,7 @@ class Register extends Component {
             secureTextEntry
           />
 
-          <TextInput
+          <Input
             style={styles.input}
             underlineColorAndroid='transparent'
             placeholder='Confirm Password'
@@ -66,19 +66,19 @@ class Register extends Component {
         </View>
   
         <View style={styles.buttonContainer}>
-          <PrimaryButton
+          <Button
             onPress={this.handleSubmit}
             backgroundColor='#97cbfc'
           >
             Register
-          </PrimaryButton>
+          </Button>
 
-          <PrimaryButton
+          <Button
             onPress={this.handleGoBack}
             backgroundColor='transparent'
           >
             Back
-          </PrimaryButton>
+          </Button>
         </View>
       </View>
     );
@@ -102,46 +102,9 @@ const styles = StyleSheet.create({
   inputContainer: {
     width: '80%'
   },
-  input: {
-    fontFamily: 'Avenir Next',
-    backgroundColor: 'rgba(222, 239, 253, .1)',
-    width: '100%',
-    marginTop: 8,
-    fontSize: 18,
-    marginBottom: 8,
-    padding: 10,
-    margin: 5,
-    borderRadius: 3,
-    borderWidth: 2,
-    borderColor: 'rgba(222, 239, 253, .8)'
-  },
   buttonContainer: {
     width: '80%',
     paddingTop: 50
-  },
-  button: {
-    width: '100%',
-    backgroundColor: '#97cbfc',
-    alignItems: 'center',
-    padding: 10,
-    margin: 5,
-    borderRadius: 3,
-    borderWidth: 2,
-    borderColor: 'rgba(70, 136, 199, 0.6)'
-  },
-  transparentButton: {
-    width: '100%',
-    backgroundColor: 'transparent',
-    alignItems: 'center',
-    margin: 5,
-    padding: 10,
-    borderRadius: 3
-  },
-  buttonText: {
-    fontSize: 18,
-    color: '#3d5265',
-    fontWeight: '600',
-    fontFamily: 'Avenir Next'
   }
 });
 
