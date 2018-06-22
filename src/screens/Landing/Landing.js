@@ -4,11 +4,11 @@ import {
   StyleSheet,
   View,
   Text,
-  Image,
-  TouchableOpacity
+  Image
 } from 'react-native';
 
 import logo from '../../assets/images/logo.png';
+import PrimaryButton from '../../components/UI/PrimaryButton/PrimaryButton';
 
 class Landing extends Component {
   constructor(props) {
@@ -59,17 +59,19 @@ class Landing extends Component {
         </View>
   
         <View style={styles.buttonContainer}>
-          <TouchableOpacity onPress={() => this.handleScreenChange('Register')}>
-            <View style={[styles.button, { backgroundColor: '#97cbfc' }]}>
-              <Text style={styles.buttonText}>Register</Text>
-            </View>
-          </TouchableOpacity>
+          <PrimaryButton 
+            onPress={() => this.handleScreenChange('Register')}
+            backgroundColor='#97cbfc'
+          >
+            Register
+          </PrimaryButton>
 
-          <TouchableOpacity onPress={() => this.handleScreenChange('Login')}>
-            <View style={[styles.button, { backgroundColor: '#deeffd' }]}>
-              <Text style={styles.buttonText}>Login</Text>
-            </View>
-          </TouchableOpacity>
+          <PrimaryButton 
+            onPress={() => this.handleScreenChange('Login')}
+            backgroundColor='#deeffd'
+          >
+          Login
+          </PrimaryButton>
         </View>
       </View>
     );
@@ -106,21 +108,6 @@ const styles = StyleSheet.create({
   buttonContainer: {
     width: '80%',
     paddingTop: 50
-  },
-  button: {
-    backgroundColor: '#97cbfc',
-    alignItems: 'center',
-    padding: 10,
-    margin: 5,
-    borderRadius: 3,
-    borderWidth: 2,
-    borderColor: 'rgba(70, 136, 199, 0.6)'
-  },
-  buttonText: {
-    fontSize: 20,
-    color: '#3d5265',
-    fontWeight: '600',
-    fontFamily: 'Avenir Next'
   }
 });
 

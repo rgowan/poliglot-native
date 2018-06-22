@@ -4,11 +4,11 @@ import {
   StyleSheet,
   View,
   Text,
-  TextInput,
-  TouchableOpacity
+  TextInput
 } from 'react-native';
 
 import { startChatScreen } from '../../../App';
+import PrimaryButton from '../../components/UI/PrimaryButton/PrimaryButton';
 
 class Login extends Component {
 
@@ -51,17 +51,19 @@ class Login extends Component {
         </View>
   
         <View style={styles.buttonContainer}>
-          <TouchableOpacity onPress={this.handleSubmit}>
-            <View style={styles.button}>
-              <Text style={styles.buttonText}>Login</Text>
-            </View>
-          </TouchableOpacity>
+          <PrimaryButton
+            onPress={this.handleSubmit}
+            backgroundColor='#deeffd'
+          >
+            Login
+          </PrimaryButton>
 
-          <TouchableOpacity onPress={this.handleGoBack}>
-            <View style={styles.transparentButton}>
-              <Text style={styles.buttonText}>Back</Text>
-            </View>
-          </TouchableOpacity>
+          <PrimaryButton
+            onPress={this.handleGoBack}
+            backgroundColor='transparent'
+          >
+          Back
+          </PrimaryButton>
         </View>
       </View>
     );
@@ -101,30 +103,6 @@ const styles = StyleSheet.create({
   buttonContainer: {
     width: '80%',
     paddingTop: 50
-  },
-  button: {
-    width: '100%',
-    backgroundColor: '#deeffd',
-    alignItems: 'center',
-    padding: 10,
-    margin: 5,
-    borderRadius: 3,
-    borderWidth: 2,
-    borderColor: 'rgba(70, 136, 199, 0.6)'
-  },
-  transparentButton: {
-    width: '100%',
-    backgroundColor: 'transparent',
-    alignItems: 'center',
-    margin: 5,
-    padding: 10,
-    borderRadius: 3
-  },
-  buttonText: {
-    fontSize: 18,
-    color: '#3d5265',
-    fontWeight: '600',
-    fontFamily: 'Avenir Next'
   }
 });
 

@@ -4,11 +4,11 @@ import {
   StyleSheet,
   View,
   Text,
-  TextInput,
-  TouchableOpacity
+  TextInput
 } from 'react-native';
 
 import { startChatScreen } from '../../../App';
+import PrimaryButton from '../../components/UI/PrimaryButton/PrimaryButton';
 
 class Register extends Component {
 
@@ -66,17 +66,19 @@ class Register extends Component {
         </View>
   
         <View style={styles.buttonContainer}>
-          <TouchableOpacity onPress={this.handleSubmit}>
-            <View style={styles.button}>
-              <Text style={styles.buttonText}>Register</Text>
-            </View>
-          </TouchableOpacity>
+          <PrimaryButton
+            onPress={this.handleSubmit}
+            backgroundColor='#97cbfc'
+          >
+            Register
+          </PrimaryButton>
 
-          <TouchableOpacity onPress={this.handleGoBack}>
-            <View style={styles.transparentButton}>
-              <Text style={styles.buttonText}>Back</Text>
-            </View>
-          </TouchableOpacity>
+          <PrimaryButton
+            onPress={this.handleGoBack}
+            backgroundColor='transparent'
+          >
+            Back
+          </PrimaryButton>
         </View>
       </View>
     );
