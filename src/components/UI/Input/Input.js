@@ -8,6 +8,7 @@ import {
 const input = props => (
   <TextInput
     style={styles.input}
+    underlineColorAndroid='transparent'
     {...props}
   />
 );

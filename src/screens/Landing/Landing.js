@@ -14,6 +14,7 @@ import {
 
 import logo from '../../assets/images/logo.png';
 import Button from '../../components/UI/Button/Button';
+import Heading from '../../components/UI/Heading/Heading';
 
 class Landing extends Component {
   constructor(props) {
@@ -59,7 +60,7 @@ class Landing extends Component {
             source={logo}
             style={styles.logo}
           />
-          <Text style={styles.heading}>Poliglot</Text>
+          <Heading>Poliglot</Heading>
           <Text style={styles.subHeading}>Break the language barrier.</Text>
         </View>
   
@@ -96,13 +97,6 @@ const styles = StyleSheet.create({
   logo: {
     width: 160,
     height: 160
-  },
-  heading: {
-    fontSize: 60,
-    fontWeight: '700',
-    fontFamily: 'Avenir Next',
-    color: '#3d5265',
-    textAlign: 'center'
   },
   subHeading: {
     fontSize: 20,

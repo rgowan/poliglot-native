@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 
 import {
   StyleSheet,
-  View,
-  Text
+  View
 } from 'react-native';
 
 import { 
@@ -13,6 +12,7 @@ import {
 import { startChatScreen } from '../../../App';
 import Button from '../../components/UI/Button/Button';
 import Input from '../../components/UI/Input/Input';
+import Heading from '../../components/UI/Heading/Heading';
 
 class Login extends Component {
 
@@ -32,12 +32,10 @@ class Login extends Component {
   render () {
     return (
       <View style={styles.container}>
-        <Text style={styles.heading}>Login</Text>
+        <Heading style={styles.heading}>Login</Heading>
   
         <View style={styles.inputContainer}>
           <Input
-            style={styles.input}
-            underlineColorAndroid='transparent'
             placeholder='Email'
             autoCapitalize='none'
             autoCorrect={false}
@@ -45,8 +43,6 @@ class Login extends Component {
           />
   
           <Input
-            style={styles.input}
-            underlineColorAndroid='transparent'
             placeholder='Password'
             autoCapitalize='none'
             autoCorrect={false}
