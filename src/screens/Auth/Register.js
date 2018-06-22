@@ -6,6 +6,10 @@ import {
   Text
 } from 'react-native';
 
+import { 
+  primaryColor
+} from '../../components/UI/globalStyles';
+
 import { startChatScreen } from '../../../App';
 import Button from '../../components/UI/Button/Button';
 import Input from '../../components/UI/Input/Input';
@@ -68,7 +72,7 @@ class Register extends Component {
         <View style={styles.buttonContainer}>
           <Button
             onPress={this.handleSubmit}
-            backgroundColor='#97cbfc'
+            backgroundColor={primaryColor}
           >
             Register
           </Button>

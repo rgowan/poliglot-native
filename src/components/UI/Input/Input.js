@@ -7,8 +7,8 @@ import {
 
 const input = props => (
   <TextInput
-    {...props}
     style={styles.input}
+    {...props}
   />
 );
 

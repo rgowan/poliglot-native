@@ -6,6 +6,10 @@ import {
   Text
 } from 'react-native';
 
+import { 
+  secondryColor
+} from '../../components/UI/globalStyles';
+
 import { startChatScreen } from '../../../App';
 import Button from '../../components/UI/Button/Button';
 import Input from '../../components/UI/Input/Input';
@@ -53,7 +57,7 @@ class Login extends Component {
         <View style={styles.buttonContainer}>
           <Button
             onPress={this.handleSubmit}
-            backgroundColor='#deeffd'
+            backgroundColor={secondryColor}
           >
             Login
           </Button>

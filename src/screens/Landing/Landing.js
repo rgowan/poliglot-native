@@ -7,8 +7,13 @@ import {
   Image
 } from 'react-native';
 
+import { 
+  primaryColor,
+  secondryColor
+} from '../../components/UI/globalStyles';
+
 import logo from '../../assets/images/logo.png';
-import PrimaryButton from '../../components/UI/PrimaryButton/PrimaryButton';
+import Button from '../../components/UI/Button/Button';
 
 class Landing extends Component {
   constructor(props) {
@@ -59,19 +64,19 @@ class Landing extends Component {
         </View>
   
         <View style={styles.buttonContainer}>
-          <PrimaryButton 
+          <Button 
             onPress={() => this.handleScreenChange('Register')}
-            backgroundColor='#97cbfc'
+            backgroundColor={primaryColor}
           >
             Register
-          </PrimaryButton>
+          </Button>
 
-          <PrimaryButton 
+          <Button 
             onPress={() => this.handleScreenChange('Login')}
-            backgroundColor='#deeffd'
+            backgroundColor={secondryColor}
           >
           Login
-          </PrimaryButton>
+          </Button>
         </View>
       </View>
     );
